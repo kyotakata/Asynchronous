@@ -22,8 +22,11 @@ namespace Asynchronous
             {
                 MessageBox.Show("キャンセルされました");
             }
+            else
+            {
+                MessageBox.Show("完了");
+            }
 
-            MessageBox.Show("完了");
         }
 
         /// <summary>
