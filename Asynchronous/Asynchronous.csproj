@@ -49,6 +49,12 @@
     <Compile Include="DataBase2.cs" />
     <Compile Include="DataBase.cs" />
     <Compile Include="DTO.cs" />
+    <Compile Include="Form5A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5A.Designer.cs">
+      <DependentUpon>Form5A.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form8.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form5A.resx">
+      <DependentUpon>Form5A.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form8.resx">
       <DependentUpon>Form8.cs</DependentUpon>
     </EmbeddedResource>
